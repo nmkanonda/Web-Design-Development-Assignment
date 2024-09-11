@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful User Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="f_container">
+    <!-- About Me section  -->
+    <div class="about-container">
+        <h1>ABOUT ME</h1>
+        <p>
+            I am <strong>Nur Mohammad Khan</strong>, a 
+            <span class="highlight"><u>front-end developer</u></span> and 
+            <span class="highlight"><i>Computer Science</i></span> student at 
+            <span class="highlight">Daffodil Polytechnic Institute</span>, 
+            who is excellent at design 
+            <span class="highlight special">scalable</span>, 
+            and user-friendly front-end web solutions for your personal or business needs.
+        </p>
+        <button class="follow-btn">Follow Me</button>
+    </div>
+    <!-- Qus and ans Section  -->
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <ul>
+            <li class="Qus" >1. HTML is an _____ ?</li>
+            <ul>
+                <li class="correct-answer">i. Markup language</li>
+                <li class="incorrect-answer">ii. Programming language</li>
+                <li class="incorrect-answer">iii. None of these</li>
+            </ul>
+
+            <li class="Qus" >2. CSS is used for</li>
+            <ul>
+                <li class="correct-answer">i. Styling</li>
+                <li class="incorrect-answer">ii. Scripting</li>
+                <li class="incorrect-answer">iii. None of these</li>
+            </ul>
+
+            <li class="Qus" >3. Which of the following is dynamic from of HTML ?</li>
+            <ul>
+                <li class="incorrect-answer">i. XML</li>
+                <li class="correct-answer">ii. DHTML</li>
+                <li class="incorrect-answer">iii. None of these</li>
+            </ul>
+
+            <li class="Qus" >4. Which of the following can be linked with HTML and CSS ?</li>
+            <ul>
+                <li class="correct-answer">i. Javascript</li>
+                <li class="incorrect-answer">ii. C++</li>
+                <li class="incorrect-answer">iii. None of these</li>
+            </ul>
+        </ul>
+    </div>
+    <!-- Input from user form section -->
+    <div class="container">     
+        <form class="user-form">
+            <h2>User Personal Information</h2>
+
+            <label for="fullname">Enter your full name</label>
+            <input type="text" id="fullname" placeholder="Rahul Kumar" required>
+
+            <label for="email">Enter your email</label>
+            <input type="email" id="email" placeholder="geeks@12345gmail.com" required>
+
+            <label for="password">Enter your password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <label for="confirm-password">Confirm your password</label>
+            <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+
+            <label>Enter your gender</label>
+            <div class="gender-options">
+                 <label for="male">
+                    <input type="radio" name="male" id="male"><span>Male</span>
+                 </label>
+                 <label for="female">
+                    <input type="radio" name="male" id="female"><span>Female</span>
+                 </label>
+                 <label for="others">
+                    <input type="radio" name="male" id="others"><span>Others</span>
+                 </label>
+
+            </div>
+
+            <label for="dob">Enter your Date of Birth</label>
+            <input type="date" id="dob" required>
+
+            <label for="address">Enter your Address</label>
+            <textarea id="address" placeholder="Noida Sector 137" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- Google Maps section -->
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193.41832080383872!2d90.34986427177544!3d23.78720806205501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1726071611491!5m2!1sen!2sbd" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- table section -->
+    <div class="table-container">
+        <h2>Founder Information</h2>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Founder Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Founder Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Founder Google</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Zuckerberg</td>
+                    <td>Founder Facebook</td>
+                    <td>$1300</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>  
+   </div>
+
+</body>
+</html>

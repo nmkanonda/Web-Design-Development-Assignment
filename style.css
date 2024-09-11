@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* about me section  */
+.about-container {
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 60vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #007BFF;
+    font-weight: bold;
+}
+span.highlight:hover {
+    color: rgb(76, 175, 233);
+    cursor: pointer;
+    transition: .5s ease;
+}
+.special {
+    background-color: #ffeb3b;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.follow-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.follow-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Qus and ans section  */
+.quiz-container {
+    max-width: 70vw;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li.Qus {
+    background: #007BFF;
+}
+li.Qus:hover{
+    background: #007BFF;
+}
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+.correct-answer {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.correct-answer:hover {
+    background-color: #c3e6cb;
+}
+
+.incorrect-answer {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.incorrect-answer:hover {
+    background-color: #f5c6cb;
+}
+
+/* Input users form section  */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.user-form {
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100vw;
+}
+
+.user-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-form input[type="text"],
+.user-form input[type="email"],
+.user-form input[type="password"],
+.user-form input[type="date"],
+.user-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.user-form textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.gender-options {
+    margin-bottom: 15px;
+    display: inline-flex;
+}
+
+.gender-options input {
+    margin-right: 5px;
+}
+
+.gender-options label {
+    padding: 5px 5px 5px 0;
+}
+
+.user-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-form button:hover {
+    background-color: #218838;
+}
+
+ /* Tabel section  */
+.table-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead tr {
+    background-color: #28a745;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #d4edda;
+    color: #030303;
+    cursor: pointer;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Maps section  */
+.maps{
+   text-align: center;
+}
